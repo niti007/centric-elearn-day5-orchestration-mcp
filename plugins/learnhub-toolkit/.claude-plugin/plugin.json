@@ -1,0 +1,11 @@
+{
+  "name": "learnhub-toolkit",
+  "version": "1.0.0",
+  "description": "LearnHub data investigation toolkit: read-only MySQL MCP server, database-investigator subagent, jira-writing skill, and /reflect and /session-handoff commands.",
+  "userConfig": {
+    "db_host": { "type": "string", "title": "DB host", "description": "MySQL host for the learnhub database", "default": "127.0.0.1" },
+    "db_port": { "type": "string", "title": "DB port", "description": "MySQL port", "default": "3306" },
+    "db_user": { "type": "string", "title": "DB user", "description": "MySQL user (read access is enough)", "default": "root" },
+    "db_password": { "type": "string", "title": "DB password", "description": "MySQL password", "sensitive": true }
+  }
+}

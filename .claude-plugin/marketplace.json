@@ -1,0 +1,11 @@
+{
+  "name": "learnhub-marketplace",
+  "owner": { "name": "nitish" },
+  "plugins": [
+    {
+      "name": "learnhub-toolkit",
+      "source": "./plugins/learnhub-toolkit",
+      "description": "Read-only LearnHub MCP server, database-investigator agent, jira-writing skill, /reflect and /session-handoff."
+    }
+  ]
+}
