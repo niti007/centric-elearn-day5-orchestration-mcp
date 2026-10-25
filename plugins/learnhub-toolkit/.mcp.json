@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "learnhub": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/dist/index.js"],
+      "env": {
+        "LEARNHUB_DB_HOST": "${user_config.db_host}",
+        "LEARNHUB_DB_PORT": "${user_config.db_port}",
+        "LEARNHUB_DB_USER": "${user_config.db_user}",
+        "LEARNHUB_DB_PASSWORD": "${user_config.db_password}"
+      }
+    }
+  }
+}
